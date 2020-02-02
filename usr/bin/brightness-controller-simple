@@ -249,11 +249,11 @@ if not, see http://www.gnu.org/licenses/gpl.html or write to
 the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"""
 
         info = wx.AboutDialogInfo()
-
+        info.SetIcon(wx.Icon('/usr/share/icons/hicolor/64x64/apps/brightness-controller-simple.png', wx.BITMAP_TYPE_PNG))
         info.SetName('Brightness Controller')
-        info.SetVersion('1.2.3')
+        info.SetVersion('1.2.8')
         info.SetDescription(description)
-        info.SetCopyright('(C) 2013 - 2017 Amit Seal Ami')
+        info.SetCopyright('(C) 2013 - 2019 Amit Seal Ami')
         info.SetWebSite('http://lordamit.github.io/Brightness/')
         info.SetLicence(licence)
         info.AddDeveloper('Amit Seal Ami <amitseal@outlook.com>')
